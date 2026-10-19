@@ -1,0 +1,20 @@
+=== EJERCICIO DE LA GUIA (50,30,70,20,40,60,80) ===
+Altura: 3
+Buscar 60: Encontrado | Comparaciones: 3 | Camino: 50 -> 70 -> 60 -> 
+Buscar 65: No encontrado | Comparaciones: 3 | Camino: 50 -> 70 -> 60 -> null
+
+=== ALEATORIO === Altura: 5
+Buscar 370: Encontrado | Comparaciones: 4 | Camino: 420 -> 150 -> 310 -> 370 -> 
+Buscar 640: Encontrado | Comparaciones: 5 | Camino: 420 -> 780 -> 600 -> 700 -> 640 -> 
+Buscar 55: Encontrado | Comparaciones: 4 | Camino: 420 -> 150 -> 90 -> 55 -> 
+Buscar 920: Encontrado | Comparaciones: 3 | Camino: 420 -> 780 -> 920 -> 
+Buscar 999: No encontrado | Comparaciones: 3 | Camino: 420 -> 780 -> 920 -> null
+Promedio de comparaciones: 3.8
+
+=== ORDENADO === Altura: 15
+Buscar 10: Encontrado | Comparaciones: 1 | Camino: 10 -> 
+Buscar 80: Encontrado | Comparaciones: 8 | Camino: 10 -> 20 -> 30 -> 40 -> 50 -> 60 -> 70 -> 80 -> 
+Buscar 150: Encontrado | Comparaciones: 15 | Camino: 10 -> 20 -> 30 -> 40 -> 50 -> 60 -> 70 -> 80 -> 90 -> 100 -> 110 -> 120 -> 130 -> 140 -> 150 -> 
+Buscar 140: Encontrado | Comparaciones: 14 | Camino: 10 -> 20 -> 30 -> 40 -> 50 -> 60 -> 70 -> 80 -> 90 -> 100 -> 110 -> 120 -> 130 -> 140 -> 
+Buscar 155: No encontrado | Comparaciones: 15 | Camino: 10 -> 20 -> 30 -> 40 -> 50 -> 60 -> 70 -> 80 -> 90 -> 100 -> 110 -> 120 -> 130 -> 140 -> 150 -> null
+Promedio de comparaciones: 10.6
